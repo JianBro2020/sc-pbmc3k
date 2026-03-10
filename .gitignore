@@ -1,0 +1,33 @@
+# ---- Data (do NOT commit) ----
+data/
+data/raw/
+data/processed/
+results/
+starsolo/
+
+# ---- Results/tmp ----
+*.h5ad
+*.mtx
+*.tsv.gz
+*.fastq.gz
+*.bam
+*.bai
+
+# ---- OS ----
+.DS_Store
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# pytjon
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# ---- Python/venv ----
+sc_env/
+.venv/
+__pycache__/
+*.pyc
