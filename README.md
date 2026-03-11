@@ -23,7 +23,7 @@ cd pbmc3k/data/raw
 # Download FASTQs (resume-safe with -C -)
 curl -L -C - -o pbmc3k_fastqs.tar \
   https://cf.10xgenomics.com/samples/cell-exp/1.1.0/pbmc3k/pbmc3k_fastqs.tar
-
+```
 ---
 
 ## Environment Setup
@@ -32,3 +32,4 @@ Create the virtual environment and install dependencies:
 python -m venv sc_env
 source sc_env/bin/activate 
 pip install -r sc_env/requirements.txt
+```
