@@ -2,8 +2,10 @@
 data/
 data/raw/
 data/processed/
-results/
-starsolo/
+results/cbumi_make
+results/qc
+results/read-ra_split
+results/starsolo
 
 # ---- Results/tmp ----
 *.h5ad
